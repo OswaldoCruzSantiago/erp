@@ -16,25 +16,25 @@ class Client(models.Model):
 
     #Graduacion ojo derecho
 
-    od_sph = models.DecimalField(max_digits = 3, decimal_places = 2, verbose_name = "0.00")
-    od_cyl = models.DecimalField(max_digits = 3, decimal_places = 2, verbose_name = "-0.00")
-    od_axis = models.PositiveIntegerField(max_length= 3, verbose_name = "180")
-    od_add = models.DecimalField(max_digits = 3, decimal_places = 2,  verbose_name = "0.00")
-    od_prism = models.DecimalField(max_digits = 3, decimal_places = 2, verbose_name = "0.00")
-    od_base = models.DecimalField(max_digits = 3, decimal_places = 2, verbose_name = "0.00")
-    od_dip = models.CharField(max_length= 6, verbose_name = "60/62")
-    od_alt = models.PositiveIntegerField(default=25, verbose_name = "25")
+    od_sph = models.DecimalField(max_digits = 3, decimal_places = 2, verbose_name = "Esfera")
+    od_cyl = models.DecimalField(max_digits = 3, decimal_places = 2, verbose_name = "Cilindro")
+    od_axis = models.PositiveIntegerField(max_length= 3, verbose_name = "Eje")
+    od_add = models.DecimalField(max_digits = 3, decimal_places = 2,  verbose_name = "Add")
+    od_prism = models.DecimalField(max_digits = 3, decimal_places = 2, verbose_name = "Prima")
+    od_base = models.DecimalField(max_digits = 3, decimal_places = 2, verbose_name = "Base")
+    od_dip = models.CharField(max_length= 6, verbose_name = "Dip")
+    od_alt = models.PositiveIntegerField(default=25, verbose_name = "Altura")
 
     #Graduacion Ojo izquierdo
 
-    oi_sph = models.DecimalField(max_digits = 3, decimal_places = 2, verbose_name = "0.00")
-    oi_cyl = models.DecimalField(max_digits = 3, decimal_places = 2, verbose_name = "-0.00")
-    oi_axis = models.PositiveIntegerField(max_length= 3, verbose_name = "180")
-    oi_add = models.DecimalField(max_digits = 3, decimal_places = 2,  verbose_name = "0.00")
-    oi_prism = models.DecimalField(max_digits = 3, decimal_places = 2, verbose_name = "0.00")
-    oi_base = models.DecimalField(max_digits = 3, decimal_places = 2, verbose_name = "0.00")
-    oi_dip = models.CharField(max_length= 6, verbose_name = "60/62")
-    oi_alt = models.PositiveIntegerField(default=25, verbose_name = "25")
+    oi_sph = models.DecimalField(max_digits = 3, decimal_places = 2, verbose_name = "Esfera")
+    oi_cyl = models.DecimalField(max_digits = 3, decimal_places = 2, verbose_name = "Cilindro")
+    oi_axis = models.PositiveIntegerField(max_length= 3, verbose_name = "Eje")
+    oi_add = models.DecimalField(max_digits = 3, decimal_places = 2,  verbose_name = "Add")
+    oi_prism = models.DecimalField(max_digits = 3, decimal_places = 2, verbose_name = "Prisma")
+    oi_base = models.DecimalField(max_digits = 3, decimal_places = 2, verbose_name = "Base")
+    oi_dip = models.CharField(max_length= 6, verbose_name = "Dip")
+    oi_alt = models.PositiveIntegerField(default=25, verbose_name = "Altura")
 
 
     def __str__(self):
