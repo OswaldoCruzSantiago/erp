@@ -21,7 +21,7 @@
 	--bs-white: #fff;
 	--bs-gray: #6c757d;
 	--bs-gray-dark: #343a40;
-	--bs-primary: #0170B9;
+	--bs-primary: #1D71B8;
 	--bs-secondary: #5840FF;
 	--bs-success: #01B81A;
 	--bs-info: #00AAFF;
@@ -37,7 +37,7 @@
 	--bs-light-gray: #8C90A4;
 	--bs-text: #666d92;
 	--bs-gray: #404040;
-	--bs-third: #0170B9;
+	--bs-third: #1D71B8;
 	--bs-white: #ffffff;
 	--bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	--bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -2054,8 +2054,8 @@ fieldset:disabled .btn {
 
 .btn-primary {
 	color: #fff;
-	background-color: #0170B9;
-	border-color: #0170B9;
+	background-color: #1D71B8;
+	border-color: #1D71B8;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -2096,8 +2096,8 @@ fieldset:disabled .btn {
 .btn-primary:disabled,
 .btn-primary.disabled {
 	color: #fff;
-	background-color: #0170B9;
-	border-color: #0170B9;
+	background-color: #1D71B8;
+	border-color: #1D71B8;
 }
 
 .btn-secondary {
@@ -2822,8 +2822,8 @@ fieldset:disabled .btn {
 
 .btn-third {
 	color: #fff;
-	background-color: #0170B9;
-	border-color: #0170B9;
+	background-color: #1D71B8;
+	border-color: #1D71B8;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -2864,8 +2864,8 @@ fieldset:disabled .btn {
 .btn-third:disabled,
 .btn-third.disabled {
 	color: #fff;
-	background-color: #0170B9;
-	border-color: #0170B9;
+	background-color: #1D71B8;
+	border-color: #1D71B8;
 }
 
 .btn-white {
@@ -2917,14 +2917,14 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-	color: #0170B9;
-	border-color: #0170B9;
+	color: #1D71B8;
+	border-color: #1D71B8;
 }
 
 .btn-outline-primary:hover {
 	color: #fff;
-	background-color: #0170B9;
-	border-color: #0170B9;
+	background-color: #1D71B8;
+	border-color: #1D71B8;
 }
 
 .btn-check:focus + .btn-outline-primary,
@@ -2939,8 +2939,8 @@ fieldset:disabled .btn {
 .btn-outline-primary.active,
 .btn-outline-primary.dropdown-toggle.show {
 	color: #fff;
-	background-color: #0170B9;
-	border-color: #0170B9;
+	background-color: #1D71B8;
+	border-color: #1D71B8;
 }
 
 .btn-check:checked + .btn-outline-primary:focus,
@@ -2954,7 +2954,7 @@ fieldset:disabled .btn {
 
 .btn-outline-primary:disabled,
 .btn-outline-primary.disabled {
-	color: #0170B9;
+	color: #1D71B8;
 	background-color: transparent;
 }
 
@@ -3589,14 +3589,14 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-third {
-	color: #0170B9;
-	border-color: #0170B9;
+	color: #1D71B8;
+	border-color: #1D71B8;
 }
 
 .btn-outline-third:hover {
 	color: #fff;
-	background-color: #0170B9;
-	border-color: #0170B9;
+	background-color: #1D71B8;
+	border-color: #1D71B8;
 }
 
 .btn-check:focus + .btn-outline-third,
@@ -3611,8 +3611,8 @@ fieldset:disabled .btn {
 .btn-outline-third.active,
 .btn-outline-third.dropdown-toggle.show {
 	color: #fff;
-	background-color: #0170B9;
-	border-color: #0170B9;
+	background-color: #1D71B8;
+	border-color: #1D71B8;
 }
 
 .btn-check:checked + .btn-outline-third:focus,
@@ -3626,7 +3626,7 @@ fieldset:disabled .btn {
 
 .btn-outline-third:disabled,
 .btn-outline-third.disabled {
-	color: #0170B9;
+	color: #1D71B8;
 	background-color: transparent;
 }
 
@@ -6586,7 +6586,7 @@ fieldset:disabled .btn {
 }
 
 .link-primary {
-	color: #0170B9;
+	color: #1D71B8;
 }
 
 .link-primary:hover,
@@ -6730,7 +6730,7 @@ fieldset:disabled .btn {
 }
 
 .link-third {
-	color: #0170B9;
+	color: #1D71B8;
 }
 
 .link-third:hover,
@@ -7077,7 +7077,7 @@ fieldset:disabled .btn {
 }
 
 .border-primary {
-	border-color: #0170B9 !important;
+	border-color: #1D71B8 !important;
 }
 
 .border-secondary {
@@ -7141,7 +7141,7 @@ fieldset:disabled .btn {
 }
 
 .border-third {
-	border-color: #0170B9 !important;
+	border-color: #1D71B8 !important;
 }
 
 .border-white {
@@ -9012,7 +9012,7 @@ fieldset:disabled .btn {
 /* rtl:end:remove */
 
 .text-primary {
-	color: #0170B9 !important;
+	color: #1D71B8 !important;
 }
 
 .text-secondary {
@@ -9076,7 +9076,7 @@ fieldset:disabled .btn {
 }
 
 .text-third {
-	color: #0170B9 !important;
+	color: #1D71B8 !important;
 }
 
 .text-white {
@@ -9104,7 +9104,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-	background-color: #0170B9 !important;
+	background-color: #1D71B8 !important;
 }
 
 .bg-secondary {
@@ -9168,7 +9168,7 @@ fieldset:disabled .btn {
 }
 
 .bg-third {
-	background-color: #0170B9 !important;
+	background-color: #1D71B8 !important;
 }
 
 .bg-white {

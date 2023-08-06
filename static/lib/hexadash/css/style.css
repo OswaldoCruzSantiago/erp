@@ -2049,9 +2049,9 @@ h6,
 }
 
 .outline-lg-primary {
-	border: 2px solid #0170b9;
+	border: 2px solid #1D71B8;
 	background: none;
-	color: #0170b9;
+	color: #1D71B8;
 }
 
 .outline-lg-secondary {
@@ -2145,9 +2145,9 @@ h6,
 }
 
 .outline-lg-third {
-	border: 2px solid #0170b9;
+	border: 2px solid #1D71B8;
 	background: none;
-	color: #0170b9;
+	color: #1D71B8;
 }
 
 .outline-lg-white {
@@ -2160,7 +2160,7 @@ h6,
 
 .btn-transparent-primary {
 	background: rgba(130, 49, 211, 0.15);
-	color: #0170b9;
+	color: #1D71B8;
 }
 
 .btn-transparent-secondary {
@@ -2240,7 +2240,7 @@ h6,
 
 .btn-transparent-third {
 	background: rgba(130, 49, 211, 0.15);
-	color: #0170b9;
+	color: #1D71B8;
 }
 
 .btn-transparent-white {
@@ -2249,12 +2249,12 @@ h6,
 }
 
 .checkbox-primary .form-check-label::before {
-	background: #0170b9;
+	background: #1D71B8;
 }
 
 .checkbox-primary .form-check-input:checked ~ .form-check-label::before {
-	background: #0170b9;
-	border: 1px solid #0170b9;
+	background: #1D71B8;
+	border: 1px solid #1D71B8;
 }
 
 .checkbox-primary .form-check-input:checked ~ .form-check-label::after {
@@ -2457,12 +2457,12 @@ h6,
 }
 
 .checkbox-third .form-check-label::before {
-	background: #0170b9;
+	background: #1D71B8;
 }
 
 .checkbox-third .form-check-input:checked ~ .form-check-label::before {
-	background: #0170b9;
-	border: 1px solid #0170b9;
+	background: #1D71B8;
+	border: 1px solid #1D71B8;
 }
 
 .checkbox-third .form-check-input:checked ~ .form-check-label::after {
@@ -2487,8 +2487,8 @@ h6,
 }
 
 .checkbox-outline-primary .form-check-input:checked ~ .form-check-label::before {
-	border: 1px solid #0170b9;
-	background: #0170b9;
+	border: 1px solid #1D71B8;
+	background: #1D71B8;
 }
 
 .checkbox-outline-primary .form-check-input:checked ~ .form-check-label::after {
@@ -2695,8 +2695,8 @@ h6,
 }
 
 .checkbox-outline-third .form-check-input:checked ~ .form-check-label::before {
-	border: 1px solid #0170b9;
-	background: #0170b9;
+	border: 1px solid #1D71B8;
+	background: #1D71B8;
 }
 
 .checkbox-outline-third .form-check-input:checked ~ .form-check-label::after {
@@ -34457,7 +34457,7 @@ body:after {
 	--logo-wrapper-bg: white;
 	--color-add-listing-button-text: var(--color-white);
 	--color-add-listing-button-text-hover: var(--color-white);
-	--bgcolor-add-listing-button: #0170B9;
+	--bgcolor-add-listing-button: #1D71B8;
 	--bgcolor-add-listing-button-hover: #0A0A0A;
 	--color-banner_title: var(--color-white);
 	--color-breadcrumb-link: #8C90A4;
@@ -34467,7 +34467,7 @@ body:after {
 	--color-footer-divider: #353b58;
 	--color-footer-title: var(--color-white);
 	--color-footer-link-hover: var(--color-white);
-	--color-primary: #0170B9;
+	--color-primary: #1D71B8;
 	--color-secondary: #5840FF;
 	--color-success: #01B81A;
 	--color-info: #00AAFF;
@@ -34478,7 +34478,7 @@ body:after {
 	--color-warnings: #FFBB00;
 	--color-dangers: #FF0F0F;
 	--color-purple: #A722F6;
-	--bg-primary: #0170B9;
+	--bg-primary: #1D71B8;
 	--bg-secondary: #5840FF;
 	--bg-success: #01B81A;
 	--bg-info: #00AAFF;
@@ -34602,7 +34602,7 @@ body:after {
 	--header-bg: var(--white-10);
 	--color-add-listing-button-text: var(--color-white);
 	--color-add-listing-button-text-hover: var(--color-white);
-	--bgcolor-add-listing-button: #0170b9;
+	--bgcolor-add-listing-button: #1D71B8;
 	--bgcolor-add-listing-button-hover: #0A0A0A;
 	--color-banner_title: var(--color-white);
 	--color-breadcrumb-link: #8C90A4;
@@ -34612,7 +34612,7 @@ body:after {
 	--color-footer-divider: #353b58;
 	--color-footer-title: var(--color-white);
 	--color-footer-link-hover: var(--color-white);
-	--color-primary: #0170B9;
+	--color-primary: #1D71B8;
 	--color-secondary: #5840FF;
 	--color-success: #01B81A;
 	--color-info: #00AAFF;
@@ -34623,7 +34623,7 @@ body:after {
 	--color-warnings: #FFBB00;
 	--color-dangers: #FF0F0F;
 	--color-purple: #A722F6;
-	--bg-primary: #0170B9;
+	--bg-primary: #1D71B8;
 	--bg-secondary: #5840FF;
 	--bg-success: #01B81A;
 	--bg-info: #00AAFF;
