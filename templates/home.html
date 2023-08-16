@@ -1,119 +1,58 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Ópticas Visual</title>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdminLTE 3 | Top Navigation</title>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="{% static 'lib/adminlte-3.2.0/plugins/fontawesome-free/css/all.min.css'%}">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{% static 'lib/adminlte-3.2.0/css/adminlte.min.css' %}">
+</head>
+<body class="hold-transition layout-top-nav">
+<div class="wrapper">
 
-    <!-- inject:css-->
+{% include 'header.html' %}
 
-    <link
-      rel="stylesheet"
-      href="{% static 'lib/hexadash/css/plugins/bootstrap/bootstrap.css' %}"
-    />
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
 
-    <link
-      rel="stylesheet"
-      href="{% static 'lib/hexadash/css/plugins/daterangepicker.css' %}"
-    />
+    {% block content %}
+    
+    
+    {% endblock %}
 
-    <link
-      rel="stylesheet"
-      href="{% static 'lib/hexadash/css/plugins/fontawesome.css' %}"
-    />
 
-    <link
-      rel="stylesheet"
-      href="{% static 'lib/hexadash/css/plugins/footable.standalone.min.css' %}"
-    />
 
-    <link
-      rel="stylesheet"
-      href="{% static 'lib/hexadash/css/plugins/fullcalendar@5.2.0.css '%}"
-    />
 
-    <link
-      rel="stylesheet"
-      href="{% static 'lib/hexadash/css/plugins/jquery-jvectormap-2.0.5.css' %}"
-    />
+  </div>
 
-    <link
-      rel="stylesheet"
-      href="{% static 'lib/hexadash/css/plugins/jquery.mCustomScrollbar.min.css' %}"
-    />
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
 
-    <link
-      rel="stylesheet"
-      href="{% static 'lib/hexadash/css/plugins/leaflet.css' %}"
-    />
 
-    <link
-      rel="stylesheet"
-      href="{% static 'lib/hexadash/css/plugins/line-awesome.min.css' %}"
-    />
+{% include 'footer.html' %}
 
-    <link
-      rel="stylesheet"
-      href="{% static 'lib/hexadash/css/plugins/magnific-popup.css' %}"
-    />
+</div>
 
-    <link
-      rel="stylesheet"
-      href="{% static 'lib/hexadash/css/plugins/MarkerCluster.css' %}"
-    />
+<!-- REQUIRED SCRIPTS -->
 
-    <link
-      rel="stylesheet"
-      href="{% static 'lib/hexadash/css/plugins/MarkerCluster.Default.css' %}"
-    />
-
-    <link
-      rel="stylesheet"
-      href="{% static 'lib/hexadash/css/plugins/select2.min.css' %}"
-    />
-
-    <link
-      rel="stylesheet"
-      href="{% static 'lib/hexadash/css/plugins/slick.css' %}"
-    />
-
-    <link
-      rel="stylesheet"
-      href="{% static 'lib/hexadash/css/plugins/star-rating-svg.css' %}"
-    />
-
-    <link
-      rel="stylesheet"
-      href="{% static 'lib/hexadash/css/plugins/trumbowyg.min.css' %}"
-    />
-
-    <link
-      rel="stylesheet"
-      href="{% static 'lib/hexadash/css/plugins/wickedpicker.min.css' %}"
-    />
-
-    <link rel="stylesheet" href="{% static 'lib/hexadash/css/style.css' %}" />
-
-    <!-- endinject -->
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="{% static  'lib/hexadash/img/favicon.png'%}"
-    />
-
-    <!-- Fonts -->
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
-  </head>
+<!-- jQuery -->
+<script src="{% static 'lib/adminlte-3.2.0/plugins/jquery/jquery.min.js' %}"></script>
+<!-- Bootstrap 4 -->
+<script src="{% static 'lib/adminlte-3.2.0/plugins/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+<!-- AdminLTE App -->
+<script src="{% static 'lib/adminlte-3.2.0/js/adminlte.min.js' %}"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="{% static 'lib/adminlte-3.2.0/js/demo.js' %}"></script>
+</body>
 </html>
