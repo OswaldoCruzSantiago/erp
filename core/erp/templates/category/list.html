@@ -2,7 +2,57 @@
 
 {% block content %}
 
+<div class="card card-default">
+  <div class="card-header">
+    <h3 class="card-title">
+        <i class="fas fa-search"></i>
+      {{title}}
+    </h3>
+  </div>
 
+  <div class="card-body">
+    
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Numero</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Opciones</th>
+          </tr>
+        </thead>
+        <tbody>
+            {% for c in categories %}
+
+            <tr>
+                <td>{{c.id}}</td> 
+                <td>{{c.name}}</td> 
+
+                <td>
+                    <button type="button" class="btn bg-gradient-primary btn-sm"><i class="far fa-edit"></i></button>
+                    <button type="button" class="btn  bg-gradient-danger btn-sm"><i class="far fa-trash-alt"></i></button>
+
+                </td> 
+                <td> </td> 
+
+
+
+            </tr>
+
+            
+            
+            
+            {% endfor %}
+          
+            
+        </tbody>
+      </table>
+
+  </div>
+
+
+  <div class="card-footer">
+    <button type="button" class="btn bg-gradient-primary"><i class="fas fa-plus"></i> Nuevo Registro</button>
+  </div>
+</div>
 
 {% endblock %}
-
