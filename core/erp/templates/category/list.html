@@ -1,11 +1,11 @@
 {% extends 'body.html' %} 
 
 {% block content %}
-
-<div class="card card-default">
+<div class="container-fluid"> 
+  <div class="card card-default">
   <div class="card-header">
     <h3 class="card-title">
-        <i class="fas fa-search"></i>
+        <i class="fa fa-search"></i>
       {{title}}
     </h3>
   </div>
@@ -28,19 +28,13 @@
                 <td>{{c.name}}</td> 
 
                 <td>
-                    <button type="button" class="btn bg-gradient-primary btn-sm"><i class="far fa-edit"></i></button>
+                    <button type="button" class="btn bg-gradient-primary btn-sm"><i class="far fa-edit" ></i></button>
                     <button type="button" class="btn  bg-gradient-danger btn-sm"><i class="far fa-trash-alt"></i></button>
 
                 </td> 
                 <td> </td> 
 
-
-
-            </tr>
-
-            
-            
-            
+            </tr>            
             {% endfor %}
           
             
@@ -53,6 +47,8 @@
   <div class="card-footer">
     <button type="button" class="btn bg-gradient-primary"><i class="fas fa-plus"></i> Nuevo Registro</button>
   </div>
-</div>
+  </div>
+
+</div> 
 
 {% endblock %}
